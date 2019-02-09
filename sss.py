@@ -4,6 +4,7 @@ import time
 import sqlite3
 import re
 
+#===========splash screen=============
 master=Tk()
 master.title("INTRODUCTION WINDOW")
 master.configure(background="light green")
@@ -16,6 +17,7 @@ Label(master,text="BATCH:B9",font=('helvetica',15,'bold'),width=40,anchor='w',bg
 Label(master,text="ER NO.:161B269",font=('helvetica',15,'bold'),width=40,anchor='w',bg="light green").grid(row=3,column=1)
 Label(master,text="COURSE COORDINATOR:MR MAHESH KUMAR",width=40,font=('helvetica',15,'bold'),anchor='w',bg="light green").grid(row=4,column=1)
 Label(master,text="PROJECT NAME:IRON AND STEEL \n SUPPLY MANAGEMENT",font=('helvetica',15,'bold'),width=40,anchor='w',bg="light green").grid(row=5,column=1)
+
 
 def main():
     master.destroy()
