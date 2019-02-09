@@ -240,7 +240,7 @@ def main():
     #=========================time==========================
     localtime=time.asctime(time.localtime(time.time()))
     #==========================info==========================
-    image =PhotoImage(file="steel1.gif")
+    image =PhotoImage(file="steel1.jpg")
     Label(tops, image=image).grid(row=0,column=0)
     lblInfo=Label(tops,font=('arial',50,'bold'),text="IRON AND STEEL SUPPLIER ",fg="Steel Blue",bd=10,anchor='w')
     lblInfo.grid(row=0,column=1)
